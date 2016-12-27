@@ -20,7 +20,7 @@ body{
     padding: 0;
     margin: 0;
 }
-ul {
+header ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -28,12 +28,14 @@ ul {
     background-color: #3B5998;
     width:100%;
     position: fixed;
+    z-index: 999;
 }
-li {
+header li {
     float: left;
 }
 
-li a, .dropbtn {
+
+header li a, .dropbtn {
     display: inline-block;
     color: white;
     text-align: center;
@@ -41,12 +43,20 @@ li a, .dropbtn {
     text-decoration: none;
 }
 
-li a:hover, .dropdown:hover .dropbtn {
+header li a:hover, .dropdown:hover .dropbtn {
     background-color: gray;
 }
 
-li.dropdown {
+header li.dropdown {
     display: inline-block;
+}
+header li.login{
+    display: inline-block;
+	float: right;
+}
+header li.logout{
+    display: inline-block;
+	float: right;
 }
 
 .dropdown-content {
@@ -73,12 +83,26 @@ li.dropdown {
 
 /*main*/
 #main{
-    margin-left: 200px;
-    padding:40px;
-    height: 1080px;
-    width: 100%;
-    color:red;
+    padding-left:220px;
+    min-height: 1080px;
     text-align: left;
+    background-color: #f3f3f3;
+}
+
+/* Sidebar */
+.sidebar {
+    width: 220px;
+    height: calc(100vh 85px);
+    position: fixed;
+    left: 0;
+    top: 45px;
+    background: white;
+}
+
+.clearfix {
+    content: '';
+    display: table;
+    clear: both;
 }
 
 /*footer*/
@@ -89,7 +113,8 @@ li.dropdown {
     padding:1em;
 	text-align:center;
 	background:#1A446C;
-    color:D4E6f4;
+    color:#D4E6f4;
+    z-index: 99;
 }
 
 /*timer*/
@@ -120,3 +145,60 @@ li.dropdown {
     background-color: green;
     color: #FFF;
 }
+
+
+.blog-post{
+    width: 900px;
+    padding-top: 15px;
+    padding-left: 15px;
+}
+
+.blog-img {
+    float: left;
+    width: 220px;
+    height: 220px;
+    float: left;
+    overflow: hidden;
+}
+
+.blog-description {
+    width: 665px;
+    float: left;
+    margin-left: 15px;
+}
+
+
+.profile-picture{
+    float: left;
+    width: 220px;
+    height: 220px;
+    margin:20px 350px;
+    overflow: hidden;
+}
+.profile-description {
+   
+     float: left;
+     width: 420px;
+     margin:20px 350px;
+    
+}
+.rank_description {
+   
+     float: right;
+     width: 820px;
+     padding:100px 133px;
+    
+}
+.registration_description {
+   
+     float: left;
+     width: 520px;
+     padding:100px 133px;
+}
+.login_description {
+   
+     float: left;
+     width: 420px;
+      padding:100px 133px;
+}
+
