@@ -73,11 +73,12 @@ li.dropdown {
 
 /*main*/
 #main{
-    padding: 20px;
+    margin-left: 200px;
+    padding:40px;
     height: 1080px;
     width: 100%;
     color:red;
-    text-align: center;
+    text-align: left;
 }
 
 /*footer*/
@@ -103,4 +104,19 @@ li.dropdown {
     bottom: 0;
     right: 0;
     background-color: red;
+}
+/*timer*/
+#submission_div{
+    margin: 30px;
+    color: #FFF;
+    padding-left: 8px;
+    position: fixed;
+    font-family: fantasy;
+    bottom: 0;
+    left: 0;
+}
+#submit_button{
+    padding: 10px 15px;
+    background-color: green;
+    color: #FFF;
 }

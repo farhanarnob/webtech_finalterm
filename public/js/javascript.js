@@ -10,13 +10,16 @@ function startTimer(duration, display) {
         display.textContent = minutes + ":" + seconds;
 
         if (--timer < 0) {
-            timer = duration;
+            submission_answer();
         }
     }, 1000);
 }
 
 window.onload = function () {
-    var fiveMinutes = 60 * 5,
+    var fiveMinutes = 5 * 1,
         display = document.querySelector('#current_time');
     startTimer(fiveMinutes, display);
 };
+function submission_answer(){
+	// document.getElementById("submission_answer_form").submit();
+}
