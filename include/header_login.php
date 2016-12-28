@@ -13,9 +13,5 @@
       <li class="dropdown">
         <a href="rank_page.php">Your rank</a>
       </li>
-	    <li>
-       <a href="index.php" style="text-align: right;">Logout</a> 
-      </li>
-	  
     </ul>
   </header>

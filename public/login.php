@@ -1,4 +1,4 @@
-<?php include "../include/header_profile.php" ?>
+<?php include "../include/header_login.php" ?>
 
 <div id="main">
 
@@ -6,7 +6,7 @@
 
 <div class="login_description">
 
-  	 <form>
+  	 <form id="login_form" method="POST" action="profile.php">
 	 <fieldset>
 	
     <legend>Log in:</legend>
@@ -18,7 +18,9 @@
     <input type="text" name="lastname" ><br><br>
 	
 	
-    New user?<a href="registration.php">Sign UP</a> &nbsp;&nbsp; <input type="submit" value="login">
+    New user?<a href="registration.php">Sign UP</a> 
+    &nbsp;&nbsp; 
+    <input type="submit" value="login">
   </fieldset>
 </form> 
 	 

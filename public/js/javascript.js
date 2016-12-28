@@ -14,12 +14,14 @@ function startTimer(duration, display) {
         }
     }, 1000);
 }
-
-window.onload = function () {
-    var fiveMinutes = 5 * 1,
+function time_starting(){
+    window.onload = function () {
+        var fiveMinutes = 60 *5,
         display = document.querySelector('#current_time');
-    startTimer(fiveMinutes, display);
-};
+        startTimer(fiveMinutes, display);
+    };
+}
+
 function submission_answer(){
 	// document.getElementById("submission_answer_form").submit();
 }
