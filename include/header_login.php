@@ -10,8 +10,5 @@
       <li class="timer">
         <a  href="index.php">Home</a>
       </li>
-      <li class="dropdown">
-        <a href="rank_page.php">Your rank</a>
-      </li>
     </ul>
   </header>

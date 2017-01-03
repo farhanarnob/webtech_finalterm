@@ -11,6 +11,9 @@
         <a  href="index.php">Home</a>
       </li>
       <li class="dropdown">
+        <a href="select_category_start.php" class="q">Give Exam</a>
+      </li>
+      <li class="dropdown">
         <a href="rank_page.php">Your rank</a>
       </li>
 	    <li>

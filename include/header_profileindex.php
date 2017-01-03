@@ -10,14 +10,6 @@
       <li class="timer">
         <a  href="index.php">Home</a>
       </li>
-      <li class="dropdown">
-        <a href="question.php" class="q">Exam</a>
-        <div class="dropdown-content">
-          <a href="manage.php">manage</a>
-          <a href="page.php">Link 2</a>
-          <a href="page.php">Link 3</a>
-        </div>
-		</li>
 	    <li class="login">
         <a href="registration.php" class="login">registration</a>
 	  </li>
