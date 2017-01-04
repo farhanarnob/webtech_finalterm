@@ -33,22 +33,13 @@ require_once('../include/connection.php');
 			</div>
 			<div class="picture_blog-description ">'.
 			'<h2>'.$post_head.'</h2><br><hr>'.
-			'<p>'.$post_body.'</p></div><br><br>';
+			'<p><strong>Post details: </strong>'.$post_body.'</p></div><br><br>';
 	        }
 	    }
 	}else {
             echo "0 results";
     }
  ?>
-	<!-- <div class="blog-post clearfix">
-		<div class="blog-imgfull">
-			<img src="image/1.jpg" alt="image">	
-		</div>
-		<div class="picture_blog-description ">
-			<h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h2>
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum ex corporis reiciendis, sit debitis illum, quo quam in eaque culpa excepturi explicabo magnam repellendus, earum praesentium! Distinctio ipsam incidunt nobis aspernatur fugit aliquam iusto necessitatibus impedit porro perferendis facilis at, quam, quis! Cumque, quas, molestias.Nostrum ex corporis reiciendis, sit debitis illum, quo quam in eaque culpa excepturi explicabo magnam repellendus, earum praesentium! Distinctio ipsam incidunt nobis aspernatur fugit aliquam iusto necessitatibus impedit porro perferendis facilis at, quam, quis! Cumque, quas, molestias.Nostrum ex corporis reiciendis, sit debitis illum, quo quam in eaque culpa excepturi explicabo magnam repellendus, earum praesentium! Distinctio ipsam incidunt nobis aspernatur fugit aliquam iusto necessitatibus impedit porro perferendis facilis at, quam, quis! Cumque, quas, molestias.Nostrum ex corporis reiciendis, sit debitis illum, quo quam in eaque culpa excepturi explicabo magnam repellendus, earum praesentium! Distinctio ipsam incidunt nobis aspernatur fugit aliquam iusto necessitatibus impedit porro perferendis facilis at, quam, quis! Cumque, quas, molestias.Nostrum ex corporis reiciendis, sit debitis illum, quo quam in eaque culpa excepturi explicabo magnam repellendus, earum praesentium! Distinctio ipsam incidunt nobis aspernatur fugit aliquam iusto necessitatibus impedit porro perferendis facilis at, quam, quis! Cumque, quas, molestias.Nostrum ex corporis reiciendis, sit debitis illum, quo quam in eaque culpa excepturi explicabo magnam repellendus, earum praesentium! Distinctio ipsam incidunt nobis aspernatur fugit aliquam iusto necessitatibus impedit porro perferendis facilis at, quam, quis! Cumque, quas, molestias.Nostrum ex corporis reiciendis, sit debitis illum, quo quam in eaque culpa excepturi explicabo magnam repellendus, earum praesentium! Distinctio ipsam incidunt nobis aspernatur fugit aliquam iusto necessitatibus impedit porro perferendis facilis at, quam, quis! Cumque, quas, molestias.</p>
-		</div> -->
-
 	</div>
 	
 	
